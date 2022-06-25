@@ -8,6 +8,7 @@
   --white-background-color: #ffffff;
   --hero-background-color: #2f303a;
   --team-background-color: #f5f4fa;
+  --border-color: #eeeeee;
 }
 
 body {
@@ -322,6 +323,11 @@ img {
 
 .portfolio-list {
   flex-wrap: wrap;
+}
+
+.portfolio-item {
+  margin-top: 30px;
+  border: 1px solid var(--border-color);
 }
 
 .portfolio-item-description {
