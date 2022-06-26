@@ -8,7 +8,8 @@
   --white-background-color: #ffffff;
   --hero-background-color: #2f303a;
   --team-background-color: #f5f4fa;
-  --border-color: #eeeeee;
+  --border-cart-color: #eeeeee;
+  --border-header-color: #ececec;
 }
 
 body {
@@ -55,6 +56,10 @@ img {
 
 .container-margin {
   margin-top: 94px;
+}
+
+.header {
+  border: 1px solid var(--border-header-color);
 }
 
 .header-container {
@@ -327,7 +332,7 @@ img {
 
 .portfolio-item {
   margin-top: 30px;
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--border-cart-color);
 }
 
 .portfolio-item-description {
