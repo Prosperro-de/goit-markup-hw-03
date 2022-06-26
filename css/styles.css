@@ -36,6 +36,7 @@ h5,
 h6,
 p {
   margin-top: 0;
+  /* margin-bottom: 0px; */
 }
 
 ul {
@@ -48,34 +49,56 @@ img {
   height: auto;
 }
 
+address {
+  font-style: normal;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-.container-margin {
-  margin-top: 94px;
+.container-footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 8px;
+}
+
+.container-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .header {
-  border: 1px solid var(--border-header-color);
+  border-bottom: 1px solid var(--border-header-color);
+}
+
+.header-contact-list {
+  align-items: center;
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
+  height: 100%;
+  margin-top: 0px;
 }
 
 /* убираем точки списков */
 .list {
   list-style: none;
   display: flex;
+  padding-left: 0;
+  margin: 0;
 }
 
 /* убираем подчеркивание ссылок */
 .link {
   text-decoration: none;
+  color: inherit;
 }
 
 .logo {
@@ -90,12 +113,17 @@ img {
   margin-right: 93px;
 }
 
+.section-margin {
+  margin-top: 94px;
+}
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   color: var(--primary-text-color);
+  margin-bottom: 0px;
 }
 
 .footer-contact-link {
@@ -112,6 +140,10 @@ img {
 
 /* ------------ШАПКА-------------- */
 
+.header {
+  height: 80px;
+}
+
 .logo-black {
   color: var(--black-logo-color);
 }
@@ -126,6 +158,8 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 100%;
+  padding-bottom: 100%;
   color: var(--primary-text-color);
 }
 
@@ -142,6 +176,8 @@ img {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  padding-top: 100%;
+  padding-bottom: 100%;
   color: var(--secondary-text-color);
 }
 
@@ -161,11 +197,13 @@ img {
 .hero {
   background-color: var(--hero-background-color);
   min-height: 600px;
+  margin-top: 0px;
 }
 
 .hero-inner {
   display: flex;
   flex-direction: column;
+  margin-top: 0px;
 }
 
 .hero-title {
@@ -194,7 +232,8 @@ img {
   background-color: var(--accent-color);
   color: var(--white-text-color);
   cursor: pointer;
-  max-width: 200px;
+  min-width: 200px;
+  min-height: 50px;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -219,6 +258,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
+  padding-top: 10px;
 }
 
 .features-item:not(:last-child) {
@@ -228,10 +268,19 @@ img {
 
 /* ------------СПИСОК ЗАНЯТИЙ-------------- */
 
+.work-list {
+  padding-top: 50px;
+}
+
 /* ----------------КОМАНДА----------------- */
 
 .team-section {
   background-color: var(--team-background-color);
+  margin-bottom: 0px;
+}
+
+.team-list {
+  padding-top: 50px;
 }
 
 .team-worker {
@@ -239,7 +288,11 @@ img {
   font-size: 16px;
   line-height: 1.19px;
   text-align: center;
-  margin-top: 30px;
+}
+
+.team-worker-data {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-profession {
@@ -247,7 +300,13 @@ img {
   line-height: 1.19;
   text-align: center;
   color: var(--secondary-text-color);
-  margin-top: 10px;
+  min-height: 19px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+
+.team-item {
+  background-color: var(--white-background-color);
 }
 
 .team-item:not(:last-child) {
@@ -265,7 +324,6 @@ img {
 
 .logo-footer {
   display: inline-block;
-  margin-top: 60px;
 }
 
 .logo-white {
@@ -283,7 +341,6 @@ img {
 .footer-contact-list {
   display: flex;
   flex-direction: column;
-  padding-bottom: 60px;
 }
 
 /* ---------------------------------------------- */
@@ -298,6 +355,11 @@ img {
   background-color: var(--team-background-color);
   color: var(--primary-text-color);
   cursor: pointer;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border-radius: 4px;
 }
 
 .portfolio-btn:hover,
@@ -330,8 +392,13 @@ img {
   flex-wrap: wrap;
 }
 
+.portfolio-footer {
+  margin-top: 94px;
+}
+
 .portfolio-item {
   margin-top: 30px;
+  max-width: 370px;
   border: 1px solid var(--border-cart-color);
 }
 
