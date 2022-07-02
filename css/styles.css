@@ -36,7 +36,7 @@ h5,
 h6,
 p {
   margin-top: 0;
-  /* margin-bottom: 0px; */
+  margin-bottom: 0;
 }
 
 ul {
@@ -61,17 +61,6 @@ address {
   padding-right: 15px;
 }
 
-.container-footer {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin-top: 8px;
-}
-
-.container-team {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .header {
   border-bottom: 1px solid var(--border-header-color);
 }
@@ -84,7 +73,7 @@ address {
   display: flex;
   justify-content: space-between;
   height: 100%;
-  margin-top: 0px;
+  padding-top: 0px;
 }
 
 /* убираем точки списков */
@@ -113,10 +102,6 @@ address {
   margin-right: 93px;
 }
 
-.section-margin {
-  margin-top: 94px;
-}
-
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -124,6 +109,10 @@ address {
   text-align: center;
   color: var(--primary-text-color);
   margin-bottom: 0px;
+}
+
+.section-padding {
+  padding-top: 94px;
 }
 
 .footer-contact-link {
@@ -158,8 +147,8 @@ address {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  padding-top: 100%;
-  padding-bottom: 100%;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--primary-text-color);
 }
 
@@ -204,6 +193,8 @@ address {
   display: flex;
   flex-direction: column;
   margin-top: 0px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -214,7 +205,6 @@ address {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-text-color);
-  margin-top: 200px;
   width: 696px;
   margin-left: auto;
   margin-right: auto;
@@ -252,13 +242,13 @@ address {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .features-text {
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
-  padding-top: 10px;
 }
 
 .features-item:not(:last-child) {
@@ -267,9 +257,12 @@ address {
 }
 
 /* ------------СПИСОК ЗАНЯТИЙ-------------- */
+.work-sections {
+  padding-bottom: 94px;
+}
 
 .work-list {
-  padding-top: 50px;
+  margin-top: 50px;
 }
 
 /* ----------------КОМАНДА----------------- */
@@ -277,16 +270,17 @@ address {
 .team-section {
   background-color: var(--team-background-color);
   margin-bottom: 0px;
+  padding-bottom: 94px;
 }
 
 .team-list {
-  padding-top: 50px;
+  margin-top: 50px;
 }
 
 .team-worker {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
   text-align: center;
 }
 
@@ -301,7 +295,6 @@ address {
   text-align: center;
   color: var(--secondary-text-color);
   min-height: 19px;
-  padding-top: 10px;
   margin-bottom: 0px;
 }
 
@@ -320,6 +313,8 @@ address {
 /* ----------------ПОДВАЛ----------------- */
 .footer {
   background-color: var(--hero-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-footer {
@@ -376,7 +371,7 @@ address {
 }
 
 .container-portfolio {
-  margin-top: 34px;
+  margin-top: 50px;
 }
 
 .portfolio-btn-list {
@@ -407,6 +402,10 @@ address {
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 20px;
+}
+
+.portfolio-list {
+  margin-top: -30px;
 }
 
 .portfolio-list-text {
