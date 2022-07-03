@@ -165,8 +165,8 @@ address {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  padding-top: 100%;
-  padding-bottom: 100%;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--secondary-text-color);
 }
 
@@ -296,6 +296,7 @@ address {
   color: var(--secondary-text-color);
   min-height: 19px;
   margin-bottom: 0px;
+  margin-top: 10px;
 }
 
 .team-item {
@@ -336,6 +337,7 @@ address {
 .footer-contact-list {
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
 }
 
 /* ---------------------------------------------- */
@@ -355,6 +357,10 @@ address {
   padding-left: 22px;
   padding-right: 22px;
   border-radius: 4px;
+}
+
+.portfolio-section {
+  padding-bottom: 94px;
 }
 
 .portfolio-btn:hover,
@@ -385,10 +391,6 @@ address {
 
 .portfolio-list {
   flex-wrap: wrap;
-}
-
-.portfolio-footer {
-  margin-top: 94px;
 }
 
 .portfolio-item {
